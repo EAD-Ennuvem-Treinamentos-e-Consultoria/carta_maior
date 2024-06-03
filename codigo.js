@@ -1,5 +1,5 @@
- //======================================== BLOCO DE VARIAVEIS GLOBAIS======================
- //========================================================================================
+ //====== BLOCO DE VARIAVEIS GLOBAIS======================
+ //======================================================
  
  let n1 =["A♠","2♠","3♠","4♠","5♠","6♠","7♠","8♠","9♠","10♠","J♠","Q♠","K♠"];
  let n2 =["A♣","2♣","3♣","4♣","5♣","6♣","7♣","8♣","9♣","10♣","J♣","Q♣","K♣"];
@@ -20,17 +20,20 @@ function principal() {
     console.log("---- ordem apos 01 randor");
     baralho.sort(randOrd); 
     console.log(baralho);
-    baralho.forEach(element => {
+    // abaixo laço repetitivo que passa por cada carta do Baralho
+    baralho.forEach(element => {   // laço for each para cada elemento dentro do baralho ele faz os comandos
         console.log("Carta :"+element);
         baralho.sort(randOrd);
     });
     console.log("apos todas estas interacoes");
     console.log("ordem : "+ baralho);
     // primeira carta do topo dar para o jogador
+    let pcarta;
     
-    console.log("Jogador recebe carta: "+ );
-    console.log("o robo pegou a proxima carta que é um "+ );
-    console.log("o ganhador com a carta maior foi"+);
+   //*to do
+   // console.log("Jogador recebe carta: "+ );
+   // console.log("o robo pegou a proxima carta que é um "+ );
+   // console.log("o ganhador com a carta maior foi"+);
 }
     
 
